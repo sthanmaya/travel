@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendations</title>
+</head>
+<body style="background-image: url(bg.jpg);background-repeat: no-repeat;background-size:cover">
+    <!-- Content will be added based on other tasks -->
+    <nav style="float:right;">
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">Search</button>
+            <button onclick="clearResults()">Reset</button>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="background-image">
+        
+            <!-- Your background image here -->
+        </div>
+        <div class="intro">
+            <h1>Welcome to Travel Recommendations</h1>
+            <p>Explore the world with our personalized travel recommendations.</p>
+        </div>
+        <div class="social-icons">
+            <!-- Social media icons here -->
+        </div>
+    </section>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Information about your company...</p>
+        <h3>Our Team</h3>
+        <ul>
+            <li>John Doe - CEO</li>
+            <li>Jane Smith - CTO</li>
+            <!-- Add more team members as needed -->
+        </ul>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+        
+    <script src="travel_recommendation.js"></script> <!-- Link your JavaScript file here -->
+</body>
+</html>
